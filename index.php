@@ -398,8 +398,8 @@
             </a>
           </li>
           <li>
-            <a href="index.php?page=registration_form" class="active">
-              <i class="bi bi-circle"></i><span>Register Form</span>
+            <a href="index.php?page=scholar_form" class="active">
+              <i class="bi bi-circle"></i><span>Scholar Form</span>
             </a>
                         <a href="index.php?page=london" class="active">
               <i class="bi bi-circle"></i><span>London</span>
@@ -503,8 +503,8 @@
                             case "tokyo":
                               include"modules/tokyo.php";
                               break;
-                               case "registration_form":
-                              include"modules/registration_form.php";
+                               case "scholar_form":
+                              include"modules/scholar_form.php";
                               break;
                       }
                     }
